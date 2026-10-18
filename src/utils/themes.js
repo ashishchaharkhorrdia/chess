@@ -1,0 +1,48 @@
+// Board visual themes
+
+export const THEMES = {
+  emerald: {
+    id: 'emerald',
+    name: 'Tournament Emerald',
+    lightSquare: '#eae8d2',
+    darkSquare: '#3a7243',
+    lightSquareText: '#3a7243',
+    darkSquareText: '#eae8d2',
+    lastMove: 'rgba(255, 255, 0, 0.45)',
+    selected: 'rgba(56, 189, 248, 0.65)',
+    glowColor: '#10b981',
+  },
+  wood: {
+    id: 'wood',
+    name: 'Walnut & Maple',
+    lightSquare: '#f0d9b5',
+    darkSquare: '#b58863',
+    lightSquareText: '#b58863',
+    darkSquareText: '#f0d9b5',
+    lastMove: 'rgba(205, 210, 106, 0.6)',
+    selected: 'rgba(251, 191, 36, 0.6)',
+    glowColor: '#f59e0b',
+  },
+  obsidian: {
+    id: 'obsidian',
+    name: 'Midnight Obsidian',
+    lightSquare: '#cbd5e1',
+    darkSquare: '#334155',
+    lightSquareText: '#334155',
+    darkSquareText: '#cbd5e1',
+    lastMove: 'rgba(99, 102, 241, 0.45)',
+    selected: 'rgba(129, 140, 248, 0.6)',
+    glowColor: '#6366f1',
+  },
+  cyber: {
+    id: 'cyber',
+    name: 'Cyber Neon',
+    lightSquare: '#1e293b',
+    darkSquare: '#0f172a',
+    lightSquareText: '#38bdf8',
+    darkSquareText: '#818cf8',
+    lastMove: 'rgba(236, 72, 153, 0.45)',
+    selected: 'rgba(168, 85, 247, 0.65)',
+    glowColor: '#a855f7',
+  },
+};
